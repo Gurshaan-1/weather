@@ -1,0 +1,41 @@
+.home {
+  display: flex;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  border-radius: 2rem;
+  height: 80vh;
+  width: 80vw;
+  background-color: #f6f6f6;
+  background-color: rgba(255, 255, 255, 0.438);
+  backdrop-filter: blur(2px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  overflow: scroll;
+
+  /* flex-wrap: wrap; */
+}
+.hero {
+  width: 100%;
+overflow: scroll;
+}
+h4 {
+  margin-left: 2rem;
+}
+.main-load {
+  /* line-height: 10rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 20rem;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+@media (max-width: 1500px) {
+  .home {
+    /* height: 40vw; */
+  }
+}

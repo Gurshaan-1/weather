@@ -1,0 +1,134 @@
+.Highlightscard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9rem;
+  width: 15.5rem !important;
+  border: none;
+  flex-wrap: wrap;
+  background-color: rgb(233, 233, 233);
+  border-radius: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  background-color: rgba(255, 252, 252, 0.454);
+  /* backdrop-filter: blur(2px); */
+  font-family: Georgia, "Times New Roman", Times, serif;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.Highlightscard:hover {
+  box-shadow: 0 4px 8px 0 rgba(70, 116, 135, 0.863),
+    0 6px 20px 0 rgba(42, 67, 78, 0.854);
+  transition: 100ms linear;
+}
+.card_text img {
+  height: 4rem;
+  width: 4rem;
+  margin-top: 1rem;
+  margin-right: 2rem;
+}
+.card_text_highlight {
+  font-size: larger;
+  color: rgb(82, 82, 82);
+}
+.main-data-highlight {
+  font-size: xx-large;
+  color: rgb(51, 51, 51);
+  font-weight: 600;
+  font-style: italic;
+}
+
+@media (max-width: 1420px) {
+  .Highlightscard {
+    width: 15rem !important;
+    margin-left: 0.6rem;
+    margin-bottom: 0.7rem;
+  }
+  .card_text img {
+    height: 3rem;
+    width: 3rem;
+    margin-top: 0.7rem;
+    margin-right: 1.4rem;
+  }
+  .card_text_highlight {
+    font-size: 1rem;
+  }
+  .main-data-highlight {
+    font-size: 1.7rem;
+  }
+}
+@media (max-width: 1371px) {
+  .Highlightscard {
+    width: 13.8rem !important;
+  }
+}
+@media (max-width: 1271px) {
+  .Highlightscard {
+    width: 11.8rem !important;
+  }
+}
+@media (max-width: 1065px) {
+  .Highlightscard {
+    width: 15.5rem !important;
+  }
+}
+@media (max-width: 975px) {
+  .Highlightscard {
+    width: 13rem !important;
+  }
+}
+@media (max-width: 850px) {
+  .Highlightscard {
+    width: 11rem !important;
+  }
+}
+@media (max-width: 730px) {
+  .Highlightscard {
+    width: 9.5rem !important;
+  }
+}
+@media (max-width: 620px) {
+  .Highlightscard {
+    width: 12rem !important;
+  }
+}
+@media (max-width: 527px) {
+  .Highlightscard {
+    width: 35vw !important;
+  }
+.uv{
+    height: 65%;
+}
+  .card_text img {
+    height: 10vw;
+    width: 11vw;
+    margin-top: 0.7rem;
+    margin-right: 1.4rem;
+  }
+  .card_text_highlight {
+    font-size: 3.5vw;
+  }
+  .main-data-highlight {
+    font-size: 6.5vw;
+  }
+}
+@media (max-width: 362px) {
+  .Highlightscard {
+    width: 60vw !important;
+  }
+
+.uv{
+    height: 40% !important;
+}
+  .card_text img {
+    height: 18vw;
+    width: 20vw;
+    margin-top: 0.7rem;
+    margin-right: 1.4rem;
+  }
+
+  .Highlightscard {
+    height: 40vw !important;
+  }
+}

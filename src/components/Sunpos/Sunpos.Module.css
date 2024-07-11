@@ -1,0 +1,100 @@
+.sun-gauge-container {
+  position: relative;
+  width: 100%;
+  height: 11rem;
+}
+.sun-gauge-container svg {
+  width: 90%;
+  height: 90%;
+}
+
+.gauge-wrapper {
+  position: relative;
+  width: 90%;
+  height: 90%; /* Half-circle */
+}
+
+.sun-icon {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  transform: translate(85%, 0%);
+  pointer-events: none;
+}
+
+.slider-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.arc path {
+  fill: rgb(0 158 200) !important;
+  fill: rgb(255, 158, 2) !important;
+}
+
+#sun {
+  color: rgb(55, 90, 99);
+}
+.time {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1rem;
+  color: rgb(43, 66, 72);
+  font-size: 1rem;
+}
+
+@media (max-width: 1371px) {
+  .time {
+    font-size: 1rem;
+margin-top: -5rem;
+  }
+  .sun-gauge-container {
+    height: 9rem;
+  }
+  .sun-gauge-container svg {
+   scale: 0.5 !important;
+  }
+}
+@media (max-width: 900px) {
+  .time {
+    font-size: 1rem;
+margin-top: -3rem;
+  }
+  .sun-gauge-container {
+    height: 9rem;
+  }
+  .sun-gauge-container svg {
+   scale: 0.5 !important;
+  }
+}
+@media (max-width: 800px) {
+ .time {
+    font-size: 0.7rem;
+margin-top: 0rem;
+  }
+  .sun-gauge-container {
+    height: 11rem;
+  }
+  .sun-gauge-container svg {
+   scale: 1 !important;
+  }
+}
+@media (max-width: 600px) {
+  .sun-gauge-container {
+    height: 7rem;
+  }
+}
+@media (max-width: 450px) {
+  .sun-gauge-container {
+    height: 6rem;
+  }
+}
+@media (max-width: 400px) {
+  .sun-gauge-container {
+    height: 4rem;
+  }
+}

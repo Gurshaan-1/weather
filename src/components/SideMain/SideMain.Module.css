@@ -1,0 +1,134 @@
+.side_main {
+  color: rgb(48, 59, 96);
+  /* margin-top: 1rem; */
+  height: 21rem;
+  display: block;
+  border-radius: 2rem;
+  background-color: rgba(255, 255, 255, 0.655);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /* background: linear-gradient(
+    132deg,
+    rgba(81, 198, 246, 1) 25%,
+    rgba(85, 200, 255, 1) 62%,
+    rgba(60, 108, 210, 1) 100%,
+    rgba(74, 59, 246, 1) 100%
+  ); */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  text-align: center;
+  z-index: 0;
+}
+
+.main-cen {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.3rem;
+}
+.main-up {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+.side_main:hover {
+  box-shadow: 0 4px 8px 0 rgba(60, 97, 111, 0.863),
+    0 6px 20px 0 rgba(54, 95, 112, 0.854);
+  transition: 100ms linear;
+}
+.side_main img {
+  width: 4rem;
+  height: 4rem;
+}
+.side_main p {
+  font-size: 0.8rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 !important;
+}
+.loc-name {
+  display: flex;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  width: 7rem;
+  height: 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  color: rgb(108, 108, 108);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.star {
+  color: rgb(239, 179, 28);
+  font-size: 1rem;
+}
+.star :hover {
+  cursor: pointer;
+}
+
+@media (max-width: 1371px) {
+  .loc-name {
+    width: 5rem;
+    font-size: 0.7rem;
+    gap: 0rem;
+  }
+  .main-cen {
+    margin-bottom: 0.7rem;
+  }
+  h3 {
+    font-size: 1.5rem !important;
+  }
+  h1 {
+    font-size: 2.3rem !important;
+  }
+  h5 {
+    font-size: 1rem !important;
+  }
+}
+@media (max-width: 1150px) {
+  .main-up {
+    gap: 0.3rem;
+  }
+  h3 {
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 536px) {
+.side_main{
+width: 40vw !important;
+margin-right: 20vw;
+}
+  .loc-name {
+    width: 17vw;
+    font-size: 2vw;
+  }
+  .main-cen {
+    margin-bottom: 3vw;
+  }
+  h3 {
+    font-size: 2vw !important;
+  }
+  h1 {
+    font-size: 6vw !important;
+  }
+  h5 {
+    font-size: 3vw !important;
+  }
+h4{
+font-size: 3vw !important;
+}
+}

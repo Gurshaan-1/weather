@@ -1,0 +1,137 @@
+.card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+  border: none;
+  background-color: rgb(233, 233, 233);
+  border-radius: 1rem;
+  background-color: rgba(255, 252, 252, 0.413);
+
+  font-family: Georgia, "Times New Roman", Times, serif;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.card-body {
+  height: 100%;
+  display: inline-block;
+  justify-content: center;
+}
+.card_text {
+  text-align: center;
+  position: relative;
+  top: -4%;
+}
+.daily-img {
+  position: relative;
+  width: 4rem;
+  height: 4rem;
+}
+.img-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1rem;
+}
+.date {
+  position: relative;
+  top: 5% !important;
+}
+
+.card1:hover {
+  box-shadow: 0 4px 8px 0 rgba(60, 97, 111, 0.863),
+    0 6px 20px 0 rgba(54, 95, 112, 0.854);
+  transition: 100ms linear;
+}
+.today {
+  color: white;
+  background: linear-gradient(
+    132deg,
+    rgb(90, 129, 145) 25%,
+    rgb(66, 106, 125) 62%,
+    rgb(71, 83, 112) 100%,
+    rgb(65, 80, 119) 100%
+  );
+}
+.today:hover {
+  color: white;
+  box-shadow: rgb(213, 213, 252) 0px 50px 100px -20px,
+    rgba(167, 166, 166, 0.763) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+@media (max-width: 1371px) {
+  .card1 {
+    width: 6rem !important;
+    height: 6rem;
+  }
+  .daily-img {
+    width: 2rem !important;
+    height: 2rem;
+  }
+}
+@media (max-width: 1271px) {
+  .card1 {
+    width: 5rem !important;
+    height: 6rem;
+  }
+  .daily-img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+@media (max-width: 1065px) {
+  .card1 {
+    width: 6rem !important;
+    height: 7rem;
+  }
+  .daily-img {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+@media (max-width: 880px) {
+  .card1 {
+    width: 4rem !important;
+    height: 5rem;
+  }
+  .daily-img {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+@media (max-width: 610px) {
+  .card1 {
+    width: 3.5rem !important;
+    height: 5rem;
+  }
+  .card_text {
+    font-size: 0.7rem;
+  }
+  .daily-img {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+@media (max-width: 527px) {
+  .card1 {
+    width: 10vw !important;
+    height: 14vw;
+  }
+  .card_text {
+    font-size: 2.5vw;
+  }
+  .daily-img {
+    width: 1vw;
+    height: 4vh;
+  }
+}
+@media (max-width: 340px) {
+  .daily-img {
+    width: 0.6vw;
+    height: 6vw;
+  }
+}
