@@ -35,7 +35,7 @@ This is a **weather dashboard application** built using **React** and **Material
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/your-username/weather-dashboard.git
+    git clone https://github.com/Gurshaan-1/weather.git
     ```
 2. **Install dependencies**:
     ```sh
