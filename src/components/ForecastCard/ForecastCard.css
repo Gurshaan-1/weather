@@ -40,11 +40,11 @@
   top: 5% !important;
 }
 
-.card1:hover {
+/* .card1:hover {
   box-shadow: 0 4px 8px 0 rgba(60, 97, 111, 0.863),
     0 6px 20px 0 rgba(54, 95, 112, 0.854);
   transition: 100ms linear;
-}
+} */
 .today {
   color: white;
   background: linear-gradient(

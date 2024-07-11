@@ -50,37 +50,44 @@
 @media (max-width: 1371px) {
   .time {
     font-size: 1rem;
-margin-top: -5rem;
+    margin-top: -1rem;
   }
   .sun-gauge-container {
     height: 9rem;
   }
   .sun-gauge-container svg {
-   scale: 0.5 !important;
+    scale: 0.5 !important;
   }
+}
+@media (max-width: 1065px) {
+  .time {
+    font-size: 1rem;
+    margin-top: -4rem;
+  }
+  
 }
 @media (max-width: 900px) {
   .time {
     font-size: 1rem;
-margin-top: -3rem;
+    margin-top: -3rem;
   }
   .sun-gauge-container {
     height: 9rem;
   }
   .sun-gauge-container svg {
-   scale: 0.5 !important;
+    scale: 0.5 !important;
   }
 }
 @media (max-width: 800px) {
- .time {
+  .time {
     font-size: 0.7rem;
-margin-top: 0rem;
+    margin-top: 0rem;
   }
   .sun-gauge-container {
     height: 11rem;
   }
   .sun-gauge-container svg {
-   scale: 1 !important;
+    scale: 1 !important;
   }
 }
 @media (max-width: 600px) {
