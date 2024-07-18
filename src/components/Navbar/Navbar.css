@@ -278,7 +278,7 @@ button {
     font-size: 0.6rem;
   }
 }
-@media (max-width: 620px) {
+@media (max-width: 640px) {
   .button-29 {
     font-size: 0.5rem;
     padding-left: 2px;
@@ -291,10 +291,6 @@ button {
   }
 }
 @media (max-width: 560px) {
-  /* .navbar {
-    margin-top: 1.5rem;
-    margin-left: -3rem;
-  } */
   .navbar ul {
     gap: 0.5rem;
   }

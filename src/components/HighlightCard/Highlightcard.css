@@ -96,9 +96,11 @@
 @media (max-width: 527px) {
   .Highlightscard {
     width: 35vw !important;
+height: 30vw!important;
   }
 .uv{
     height: 65%;
+margin-bottom: -1.5rem;
 }
   .card_text img {
     height: 10vw;

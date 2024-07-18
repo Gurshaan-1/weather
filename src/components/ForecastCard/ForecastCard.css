@@ -119,7 +119,7 @@
 @media (max-width: 527px) {
   .card1 {
     width: 10vw !important;
-    height: 14vw;
+    height: 17vw;
   }
   .card_text {
     font-size: 2.5vw;
@@ -132,6 +132,6 @@
 @media (max-width: 340px) {
   .daily-img {
     width: 0.6vw;
-    height: 6vw;
+    height: 7vw;
   }
 }

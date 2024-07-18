@@ -23,7 +23,7 @@ const UVIndexGauge = ({ uvIndex }) => {
 
   return (
     <>
-      <svg width={2 * center} height={center + 10}>
+      <svg width={2 * center} height={center + 10} className="uvchart">
         {/* Gauge sections */}
         {sections.map((section, index) => {
           const startAngle =

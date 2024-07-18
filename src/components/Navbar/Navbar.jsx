@@ -93,7 +93,7 @@ const Navbar = ({ handleviews, citiesopen }) => {
               Starred Cities
             </button>
           </li>
-          {windowWidth >= 575 && (
+          {windowWidth >= 585 && (
             <li>
               <button className="greetname box">Hi {name}!!&nbsp;</button>
             </li>

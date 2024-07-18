@@ -26,7 +26,7 @@ const Analysis = () => {
     if (Dailydata) {
       const mappedData = Dailydata.forecast.forecastday[0].hour.map(
         (hour, index) => ({
-          time: hour.time.split(" ")[1],
+          time: index,
           temperature: hour.temp_c,
         })
       );
@@ -54,9 +54,7 @@ const Analysis = () => {
   return (
     <>
       <div className="analysis-main">
-        <div>
           <TemperatureChart data={hourlyData}></TemperatureChart>
-        </div>
       </div>
       <div className="rain-aqi">
         <div className="rain-graph">

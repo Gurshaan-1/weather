@@ -1,4 +1,5 @@
 import React from "react";
+import "./RainBarChart.Module.css"
 import {
   BarChart,
   Bar,
@@ -12,7 +13,7 @@ import {
 
 const RainBarChart = ({ rainData }) => {
   return (
-    <ResponsiveContainer width="90%" height={200}>
+    <ResponsiveContainer width="95%" height="95%">
       <BarChart data={rainData} margin={{ top: 20 }}>
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="day" />

@@ -103,6 +103,12 @@
     display: block !important;
   }
 }
+@media (max-width: 420px) {
+  .side-main-b{
+height: 8rem;
+}
+  
+}
 
 /* Ensure the menu icon is hidden on larger screens */
 .menu-icon {

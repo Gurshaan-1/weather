@@ -42,6 +42,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  overflow: scroll;
 }
 .lgn-h3 {
   text-align: center;
@@ -137,7 +138,7 @@ input {
 @media (max-width: 200px) {
   .signup {
     width: 90vw;
-    height: 60vh;
+    height: 40vh !important;
   }
   input {
     width: 75vw !important;
@@ -150,6 +151,7 @@ input {
     font-size: 0.8rem;
   }
   .login-link {
+    margin-top: 1rem;
     font-size: 0.6rem;
   }
 }
